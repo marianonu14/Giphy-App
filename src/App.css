@@ -1,19 +1,28 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+  padding: 0.5rem;
+}
+
+img{
+  max-width: 15rem;
+  height: auto;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.2rem;
   text-align: center;
+  color: aquamarine;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.app-container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +33,21 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.giphy-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1.5px solid rgb(255, 255, 255);
+  border-radius: 1rem;
 }
